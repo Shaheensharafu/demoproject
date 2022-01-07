@@ -1,0 +1,18 @@
+.heading{
+    background-color: violet;
+
+}
+.heading:hover{
+    background-color: tomato;
+}
+.class2{
+    background-color: wheat;
+
+}
+.class2:hover{
+    background-color: violet;
+}
+.class2:nth-child(even){
+    background-color: aqua;
+}
+

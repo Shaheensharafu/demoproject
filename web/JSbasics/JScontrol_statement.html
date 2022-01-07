@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for loop iteration
+        for(let count=0;count<5;count++){
+            console.log("*******************");
+            console.log("hello",count);
+            console.log("*******************");
+        }
+        // if skip a number  "continue"
+        for(let count=2;count<=20;count+=2){
+            if(count==10){
+                continue
+            }
+                console.log(count);
+            }
+            for(num=5;num<=50;num+=5){
+                if(num==25){
+                    break
+                }
+                document.write("<br>",num,"</br>")
+            }
+            // while loop
+            let i=0
+            while(i<5){
+            console.log("hello",i);
+            i++
+        }
+
+        // do while loop
+        let k=0
+        let data="hello world"
+
+        do{
+            document.write(data,k);
+            k++
+        }while(k<3)
+
+        // nested loop
+        for(let i=0;i<4;i++){
+            for(j=1;j<3;j++){
+                console.log("hello",j);
+                if(j=1){
+                    break
+                }
+                console.log("inner");
+            }
+            console.log("outer");
+        }
+
+        
+    </script>
+</body>
+</html>

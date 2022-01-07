@@ -1,0 +1,32 @@
+div{
+    background-color:maroon;
+    width: 100%;
+    height: 100px;
+    border: 10px double;
+}
+p{
+    background-color: darkred;
+    width: 50%;
+    height: 70px;
+}
+    .demo{
+        color:white;
+        background-color: black;
+        font-size: 20px;
+
+    }
+    .heading{
+        text-align: center;
+        font-family: monospace;
+        text-decoration: double;
+        text-decoration-color:honeydew ;
+        color: white;
+    }
+    #pagefooter{
+        background-color: violet;
+        width: 100%;
+        height: 50px;
+        border:10px double;
+        font-size: large;
+        font-family: fantasy;
+    }
